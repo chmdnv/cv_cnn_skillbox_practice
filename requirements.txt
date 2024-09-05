@@ -1,0 +1,9 @@
+fastapi==0.109.0
+uvicorn==0.27.0.post1
+torch~=2.2.2+cpu
+torchvision~=0.17.2+cpu
+tqdm
+torchinfo
+
+numpy~=1.26.4
+opencv-python~=4.10.0.84
