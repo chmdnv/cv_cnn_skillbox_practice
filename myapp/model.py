@@ -59,7 +59,7 @@ class Model:
 
     @staticmethod
     def load_meta():
-        meta_path = os.path.join('..', 'models', 'model.pkl')
+        meta_path = os.path.join('models', 'model.pkl')
         if not os.path.exists(meta_path):
             raise FileNotFoundError(f"{meta_path} does not exist!")
         with open(meta_path, 'rb') as file:
@@ -68,7 +68,7 @@ class Model:
         return meta
 
     def load_model(self):
-        model_path = os.path.join('..', self.meta['model path'])
+        model_path = os.path.join(self.meta['model path'])
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"{model_path} does not exist!")
 
