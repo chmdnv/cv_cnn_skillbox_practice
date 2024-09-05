@@ -52,7 +52,7 @@
 
 ```bash
 git clone https://github.com/chmdnv/cv_cnn_skillbox_practice.git
-cd CV_skillbox_practice
+cd cv_cnn_skillbox_practice
 docker build -t practice_cv .
 docker run -p 8000:8000 practice_cv
 ```
